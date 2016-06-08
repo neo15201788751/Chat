@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="app-resources/css/common.css">
+    <link rel="stylesheet" href="app-resources/css/index.css">
+  </head>
+  <body>
+    <div class="chat-body">
+      <div class="chat-window">
+        <div class="chat-partner">
+          <span></span>
+        </div>
+        <div class="chat-message">
+          <ul id="messages"></ul>
+        </div>
+        <form class="chat-input">
+          <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+      </div>
+      <div class="chat-user-list">
+        <div class="chat-user-current">
+          <span></span>
+        </div>
+        <ul class="chat-user-online">
+          
+        </ul>
+      </div>
+    </div>
+    <div class="page-cover"></div>
+    <form class="login-window">
+      <div>
+        user name
+      </div>
+      <div>
+        <input type="text" name="username" id="username"/>
+      </div>
+      <div>
+        password
+      </div>
+      <div>
+        <input type="password" name="password" id="password"/>
+      </div>
+      <div class="login-window-error">
+      </div>
+      <div class="login-window-operator">
+        <input type="submit" value="登录" id="login"/>
+      </div>
+    </form>
+    <script src="/app/lib/seajs/js/sea.js"></script>
+    <script src="/app/config.js"></script>
+  </body>
+</html>

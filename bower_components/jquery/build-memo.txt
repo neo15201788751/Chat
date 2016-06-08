@@ -1,0 +1,3 @@
+1. remove amd, add cmd support
+2. custom: null (all)
+3. build 2.1.3
